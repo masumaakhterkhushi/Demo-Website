@@ -1,26 +1,27 @@
-body{
-    background-color: antiquewhite;
-   }
-
-.gallery{
-    display: inline-block;
-    border: 1px solid rgb(241, 184, 184);
-    margin: 5px;
-    width: 200px;
-    border-radius: 20px;
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
 }
-.gallery .description{
-    padding: 10px;
+.box{
+    width: 150px ;
+    height: 150px;
+    font-size: 8em;
     text-align: center;
-
+    border-radius: 15px;
 }
 
-.gallery:hover{
-    border: 2px solid salmon;
+#box1{
+    background-color: salmon;
+    order: -;
+}
+#box2{
+    background-color: sandybrown;
 }
 
-.gallery img{
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
+#box3{
+    background-color: rgb(255, 131, 22);
+}
+#box4{
+    background-color: rgb(252, 89, 60);
 }
